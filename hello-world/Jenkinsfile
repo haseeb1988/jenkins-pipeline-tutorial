@@ -1,4 +1,4 @@
-lopipeline {
+pipeline {
     agent any 
     stages {
         stage('Static Analysis') {
@@ -6,17 +6,11 @@ lopipeline {
                 echo 'Run the static analysis to the code' 
             }
         }
-          stage('hello') {
-            steps {
-                echo 'hello the source code Helloo' 
-            }
-        }
         stage('Compile') {
             steps {
-                echo 'Compile the source code Helloo' 
+                echo 'Compile the source code' 
             }
         }
-        
         stage('Security Check') {
             steps {
                 echo 'Run the security check against the application' 
