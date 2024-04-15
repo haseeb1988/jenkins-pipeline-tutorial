@@ -1,4 +1,4 @@
-pipeline {
+lopipeline {
     agent any 
     stages {
         stage('Static Analysis') {
