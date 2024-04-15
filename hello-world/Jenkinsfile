@@ -8,7 +8,7 @@ lopipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code: Helloo' 
+                echo 'Compile the source code Helloo' 
             }
         }
         stage('Security Check') {
